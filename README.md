@@ -100,8 +100,8 @@ To connect to the server using a smartphone:
 
 ## Resources for `winsock2.h`
 For detailed documentation and examples, refer to:
-- [Microsoft WinSock Documentation](https://learn.microsoft.com/en-us/windows/win32/winsock/windows-sockets-start-page)
-- [Beej's Guide to Network Programming](https://beej.us/guide/bgnet/) (general networking concepts, not Windows-specific)
+- [Microsoft WinSock Documentation](https://learn.microsoft.com/en-us/windows/win32/winsock/windows-sockets-start-page-2)
+- [Beej's Guide to Network Programming](https://beej.us/guide/bgnet/) (general networking concepts)
 
 ---
 
