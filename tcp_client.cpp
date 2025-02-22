@@ -22,7 +22,8 @@ int main()
     connect(TCPClientSocket, (SOCKADDR*)&TCPServerAdd, sizeof(TCPServerAdd));
 
     cout << "Connected to Server. Start Chatting!\n";
-    while (true) {
+    while (true) 
+    {
         // Send message to the server
         cout << "Client: ";
         cin.getline(SenderBuffer, sizeof(SenderBuffer));
@@ -31,7 +32,8 @@ int main()
 
         // Receive message from the server
         iRecv = recv(TCPClientSocket, RecvBuffer, sizeof(RecvBuffer), 0);
-        if (iRecv > 0) {
+        if (iRecv > 0) 
+        {
             RecvBuffer[iRecv] = '\0';
             cout << "Server: " << RecvBuffer << endl;
             if (strcmp(RecvBuffer, "exit") == 0) break;

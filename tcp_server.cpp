@@ -24,10 +24,12 @@ int main()
     sAcceptSocket = accept(TCPServerSocket, (SOCKADDR*)&TCPClientAdd, &iTCPClientAdd);
 
     cout << "Connection Established. Start Chatting!\n";
-    while (true) {
+    while (true) 
+    {
         // Receive message from the client
         iRecv = recv(sAcceptSocket, RecvBuffer, sizeof(RecvBuffer), 0);
-        if (iRecv > 0) {
+        if (iRecv > 0) 
+        {
             RecvBuffer[iRecv] = '\0';
             cout << "Client: " << RecvBuffer << endl;
             if (strcmp(RecvBuffer, "exit") == 0) break;
