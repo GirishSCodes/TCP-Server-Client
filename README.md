@@ -79,7 +79,7 @@ To connect to the server using a smartphone:
 1. Ensure both devices (server and client) are on the same network.
 2. Replace `inet_addr("192.168.102.33")` in `tcp_server.cpp` with `inet_addr("0.0.0.0")` to bind the server to all network interfaces.
 3. Compile and run the server program again.
-4. Use a TCP Client app (such as "TCP Client" from the app store) on your smartphone to connect to the server. Enter the server's IP address and port (`8000`).
+4. Use a TCP Client app (such as "TCP Client" from the play store) on your smartphone to connect to the server. Enter the server's IP address and port (`8000`).
 
 ---
 
